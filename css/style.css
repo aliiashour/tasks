@@ -1,0 +1,93 @@
+/*   strat global   */
+
+*{
+    margin: 0px ; 
+    padding: 0px ; 
+    box-sizing: border-box;
+}
+
+
+
+
+/*   end   global   */
+
+
+/*  start my heading    */
+.container .box{
+    outline: none ; 
+    border-radius: 10px ; 
+    background-color:#0c2461; 
+    width: 800px ; 
+    margin: 10px auto ; 
+    color: #FFF ;
+    text-align: center; 
+    height: 40px ; 
+    line-height: 40px ; 
+    font-family: serif;
+    font-weight: 500 ;
+     position: relative ; 
+    overflow: hidden
+}
+.container .box h2{ 
+    margin: 0px;
+    width: 100% ; 
+    height: 100% ; 
+    background:none;
+    font-size: 18px ;
+    line-height: 40px;
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container .box span,
+.container .box a{
+    cursor: pointer; 
+    display: block; 
+    min-width: 60px ; 
+    background-color:#d1d2f2 ; 
+    color: #000 ; 
+    text-align: center ;
+    padding: 4px 6px ; 
+    line-height: 35px ; 
+    position: relative;
+    top: 0px;
+    z-index: 999;
+}
+.container .box a{
+    position: absolute ; 
+    right: 0px ;
+    top: 0px ; 
+    width: 60px ; 
+    text-decoration: none ; 
+    display: inline  ; 
+    border: none ; 
+    outline: none ; 
+}
+.container .box .left{
+    float: left; 
+}
+.container .box .left{
+    margin: 0px 10px 0px 0px ; 
+}
+.container .box .right{
+    float: right; 
+}
+.container .box:nth-of-type(even){
+    background-color: #3c40c6;
+}
+/*  end   my heading    */
+
+
+
+
+
+
+
+/*  start framWork  */
+
+
+
+/*  end   framWork  */
